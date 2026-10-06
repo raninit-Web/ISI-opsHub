@@ -1,0 +1,29 @@
+Task-Management/
+│
+├── frontend/
+│   ├── index.html
+│   ├── login.html
+│   ├── register.html
+│   ├── dashboard.html
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       ├── auth.js
+│       └── tasks.js
+│
+├── backend/
+│   ├── server.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   └── tasks.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   └── taskController.js
+│   ├── models/
+│   │   ├── User.js
+│   │   └── Task.js
+│   └── middleware/
+│       └── authMiddleware.js
+│
+├── package.json
+└── README.md
